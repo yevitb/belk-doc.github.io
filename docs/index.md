@@ -10,9 +10,9 @@
 
 4. [Instalación de ambientes.  5](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.kbtaan6gtw1n)
 
- - [Windows.  5](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.vruws7mew314)
+  - [Windows.  5](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.vruws7mew314)
 
- * [Hyper-V.  5](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.8rk1mmik9hsn)
+  * [Hyper-V.  5](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.8rk1mmik9hsn)
 
  * [IIS.  14](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.bwgkl17t95ei)
 

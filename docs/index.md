@@ -1,14 +1,19 @@
 
 
+
+Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+########################################################################################
+Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+########################################################################################
 # Tabla de contenidos.
 
-1. [Tabla de contenidos.  2](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.j3tt24eznz8n)
+1. [Tabla de contenidos.  2](#id1)
 
 2. [Definición del proyecto.  4](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.iys9ktn05qbp)
 
 3. [Objetivos planteados.  4](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.6pybp3uoggbh)
 
-4. [Instalación de ambientes.  5](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.kbtaan6gtw1n)
+4. [Instalación de ambientes.  5](#id4)
 
   - [Windows.  5](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.vruws7mew314)
 
@@ -143,7 +148,7 @@ Otro objetivo que se tiene es la creación de un script que permita establecer l
   
   
 
-# Instalación de ambientes.
+# Instalación de ambientes.<a name="id4"></a>
 
 En esta sección de la documentación se encuentra registrado la instalación de los servicios separados de acuerdo al ambiente al cual pertenecen.
 

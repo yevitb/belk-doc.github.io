@@ -67,8 +67,8 @@
     * [Vulnerabilidades](#id53)
     * [Hallazgos](#id54)
     * [Recomendaciones](#id55)
-6 [Conclusión](#id6)
-7 [Bibliografía](#id7)
+6. [Conclusión](#id6)
+7. [Bibliografía](#id7)
 
 # Definición del proyecto.<a name="id1"></a>
 

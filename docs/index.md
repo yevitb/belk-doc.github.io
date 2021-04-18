@@ -55,8 +55,8 @@
     11. [Reportes](#id410)
 * [Conclusión](#id5)
 * [Bibliografía](#id6)
-## Primer apartado<a name="id1"></a>
-# Definición del proyecto.
+
+# Definición del proyecto.<a name="id1"></a>
 
 El proyecto consiste en desarrollo de una infraestructura que implemente la pila BELK (Beats, Elasticsearch, Logstash, Kibaba) para que de esta forma tenga la capacidad de generar reportes, informes, tablas, gráficos e identificar patrones anómalos a través de la correlación de eventos.
 
@@ -75,7 +75,7 @@ También se cuenta con una infraestructura de servicios en ambientes Windows y L
 
   
 
-# Objetivos planteados.
+# Objetivos planteados.<a name="id2"></a>
 
 El principal objetivo es el desarrollo de una infraestructura que implemente la pila BELK, para ello es necesario implementar una estructura con equipos que puedan ser monitoreados y que generan logs para ser recopilados por la pila BELK.
 
@@ -87,7 +87,7 @@ Otro objetivo que se tiene es la creación de un script que permita establecer l
   
   
 
-# Instalación de ambientes.
+# Instalación de ambientes.<a name="id3"></a>
 
 En esta sección de la documentación se encuentra registrado la instalación de los servicios separados de acuerdo al ambiente al cual pertenecen.
 
@@ -95,13 +95,13 @@ En esta sección de la documentación se encuentra registrado la instalación de
   
   
 
-## Windows.
+## Windows.<a name="id31"></a>
 
 Para esta infraestructura se tomó la decisión de crear dos servidores con sistemas Windows Server 2019 para una mejor distribución del trabajo. Una de estas máquinas cuenta con los servicios de Hyper-V, IIS y Active Directory, el otro servidor Windows tiene los servicios de DNS, DHCP y SQLServer, ambos servidores son virtualizados en VMWare.
 
   
 
-### Hyper-V.
+### Hyper-V.<a name="id311"></a>
 
 Para realizar la instalación de Hyper-V en un servidor Windows Server 2019 hacemos uso del programa Server Manager en el cual seleccionamos la opción de “Add roles and features”.
 
@@ -191,7 +191,7 @@ En esta imagen podemos ver como en efecto es posible virtualizar equipos comprob
   
   
 
-### IIS.
+### IIS.<a name="id312"></a>
 
 Para instalar IIS hacemos uso nuevamente del wizard para la instalación de roles y características. En la sección de roles seleccionamos la opción del rol de IIS.
 
@@ -223,7 +223,7 @@ Este servicio no requiere de reinicio así que podemos comprobar su funcionamien
 
   
 
-### Active Directory.
+### Active Directory.<a name="id313"></a>
 
 Antes de realizar la instalación de Active Directory es necesario configurar una IP estática al servidor que esté en el rango de los demás servidores, además de asignarle un nombre para su identificación.
 
@@ -296,7 +296,7 @@ Una vez pasada la verificación se puede instalar, en este caso es necesario rei
 
 ![](https://lh5.googleusercontent.com/d8-JyAqBRYW6cQVZAPGz2UYWXDSG0J66FL8-6sUGtKrc8I0RPoYX4eVxTs-AG4HpXKdmNrKtksZJWKCIlUPYWplMzkMLZ0p_VsipnLCSXXQjY_KvOuo2XvvSExYl5mfRXmjD6tj_)
 
-### DNS.
+### DNS.<a name="id314"></a>
 
 Al igual que en el servidor de Windows anterior, en este caso se debe fijar una dirección IPv4 estática, en este caso se fijó la dirección 10.10.10.6, y formar parte del dominio de Active Directory configurado anteriormente.
 
@@ -441,7 +441,7 @@ Y finalmente verificamos que también se encuentra el registro PTR en nuestra Re
 
 ![](https://lh4.googleusercontent.com/A57ocl6hm6iziiKA1y-geDkgwvBJ4XOzE3V3gcdHfo5krK794H9n0usNkSRlzyvLAVxyaLYusvWUpiHxveb9-IKtB_FsbL0Dhkvo37lpZ07brzDmelMVFiSSP1Jer1lgaXluPSDG)
 
-#### Habilitación de logs
+#### Habilitación de logs<a name="id315"></a>
 
 Para habilitar los logs del DNS debemos ir al Server Manager > Tools y seleccionar el DNS
 
@@ -459,7 +459,7 @@ Después de reiniciar el servicio tendremos el archivo de logs.
 
 ![](https://lh4.googleusercontent.com/tCIfNWUusH93L2IrTMbBw89jHj0YnnHxtPPc0yn3wjSKbbLtW7Rymr_o_ntIwMU1pwLFsK8Eq53zlwxncLz-_meFInQOLPfcD8iSlArRX0D3koosJpjcSb5q2y4SxU3ngjlgCU-Z)
 
-### DHCP.
+### DHCP.<a name="id316"></a>
 
 La instalación del servidor DHCP se realizó sobre el mismo servidor DNS de modo que no se requirió alguna configuración previa.
 

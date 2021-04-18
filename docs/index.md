@@ -2119,7 +2119,7 @@ Notemos que el ataque puede seguirse ejecutando sin problemas, por lo que el ser
 
 El proyecto ayudó a reforzar los conocimientos sobre servicios y redes que se adquirieron durante el Plan de Becarios, en particular sobre infraestructura de Windows, ya que no se volvió a implementar un servicio sobre este sistema operativo después del primer módulo. Así mismo, se adquirió conocimientos nuevos sobre herramientas como lo son Amavis, Spamassassin, FortiGate, GNS3 y Cerebro, entre otros. Además, nos permitió adquirir conocimientos referente a la realización de un hardening sobre sistemas operativos Debian y CentOS, lo cual nos parece muy útil ya que es necesario implementar una línea base sobre aquellos equipos que conforman nuestra infraestructura de trabajo.
 
-Por otra parte, se logró un aprendizaje significativo respecto al funcionamiento, configuración,instalación y administración de una pila ELK.
+Por otra parte, se logró un aprendizaje significativo respecto al funcionamiento, configuración, instalación y administración de una pila ELK.
 
 Fue una gran experiencia de aprendizaje.
 

@@ -1,77 +1,30 @@
-###  Proyecto final: Instalación y configuración de la pila ELK.
 
-**Tabla de contenidos**   
-1. [Definición del proyecto](#id1)
-    - [test](#id101)
-2. [Objetivos planteados](#id2)
-3. [Instalación de ambientes](#id3)
-4.  [Instalación de BELK Stack](#id4)
-5. [Conclusión](#id5)
-6. [Bibliografía](#id6)
-## Primer apartado<a name="id1"></a>
-Texto del primer apartado
-# Apartado<a name="id101"></a>
-## Segundo apartado<a name="id2"></a>
-Texto del segundo apartado
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
-########################################################################################
-![](https://lh4.googleusercontent.com/GjEXamdP1aD-3vWYB8fGDu3OS6WSO9C4_eep1Nsy0F0gVpibUIuq3TSRd7qtITsc65UC11dFypgKxu-7kHL71VZTsaM6RjhZ3Wt4PcPMYTIyNZ6GIOd5UaY8thaq7BESDfFfFh20)![](https://lh6.googleusercontent.com/eMcEDrucOxHi_DR_7-ivVSqYcrYQnRRx6kGeZXzS_XjrTVEpfVshSrzJoLO2f1Jib112V0mpIEPfXgDQ4stARD1PE50Cv-Hb5kpkv6N-dbZvIa7CuVgoPPkdeWRVdwbkSKF5hXj7)
-
-  
-  
-
-Proyecto Final.
-
-  
-
-Documentación
-
-  
-  
-
-Equipo: AAFA
-
-  
-
-Integrantes:
-
-  
-
-Fernández Martínez Abisinia Ivey
-
-Luna Castañeda Abraham Iván
-
-López Matías Alexis Brayan
-
-Resendiz Cruz Luis Fernando
 
 # Tabla de contenidos.
 
-[Tabla de contenidos.  2](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.j3tt24eznz8n)
+1. [Tabla de contenidos.  2](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.j3tt24eznz8n)
 
-[Definición del proyecto.  4](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.iys9ktn05qbp)
+2. [Definición del proyecto.  4](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.iys9ktn05qbp)
 
-[Objetivos planteados.  4](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.6pybp3uoggbh)
+3. [Objetivos planteados.  4](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.6pybp3uoggbh)
 
-[Instalación de ambientes.  5](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.kbtaan6gtw1n)
+4. [Instalación de ambientes.  5](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.kbtaan6gtw1n)
 
-[Windows.  5](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.vruws7mew314)
+ - [Windows.  5](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.vruws7mew314)
 
-[Hyper-V.  5](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.8rk1mmik9hsn)
+ * [Hyper-V.  5](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.8rk1mmik9hsn)
 
-[IIS.  14](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.bwgkl17t95ei)
+ * [IIS.  14](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.bwgkl17t95ei)
 
-[Active Directory.  17](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.p56ia2aohzye)
+ * [Active Directory.  17](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.p56ia2aohzye)
 
-[DNS.  24](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.p56ia2aohzye)
+  * [DNS.  24](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.p56ia2aohzye)
 
-[DHCP.  39](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.p56ia2aohzye)
+ * [DHCP.  39](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.p56ia2aohzye)
 
-[SQL Server.  52](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.p56ia2aohzye)
+ * [SQL Server.  52](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.p56ia2aohzye)
 
-[Linux.  60](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.qwqa65ptxkrz)
+ - [Linux.  60](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.qwqa65ptxkrz)
 
 [Correo electrónico.  60](https://docs.google.com/document/d/1LyNpjdLfWhcRg9-uCKHwo-Djmvpc3xltOfNqVUNW8II/edit#heading=h.ck2s8wrn2sx3)
 

@@ -1942,38 +1942,38 @@ El proceso con el cual se realizó la prueba será descrito de manera general a 
 
 Con base en lo anterior, reportamos puntos a favor y en contra del sistema.
 
-### Puntos positivos
+### Puntos positivos<a name="id511"></a>
 
 Los sistemas cuentan con solo los servicios indispensables para su funcionamiento y monitoreo, lo que evita que existan varias ventanas de oportunidad para atacantes.
 
 Los servicios encontrados no presentan vulnerabilidades críticas o altas.
 
-### Puntos negativos
+### Puntos negativos<a name="id512"></a>
 
 Los servicios son vulnerables a ataques de fuerza bruta. Esto representa un riesgo medio ya que, de sufrir un ataque exitoso, se podría comprometer la triada de la seguridad de la pila.
 
-## Introducción
+## Introducción<a name="id52"></a>
 
-### Objetivo
+### Objetivo<a name="id521"></a>
 
 El objetivo de esta prueba es encontrar vulnerabilidades en la pila ELK que pudieran ser explotadas una vez que se haga pública
 
-### Restricciones
+### Restricciones<a name="id522"></a>
 
 No hacer modificaciones sobre la pila
 
-### Alcance
+### Alcance<a name="id523"></a>
 
 La prueba se limita a las máquinas que conforman la pila
 
-### Antecedentes
+### Antecedentes<a name="id524"></a>
 
 Las maquina a evaluar forman una pila ELK, lo que se traduce en que los servicios de Elasticsearch, Logstash y Kibana estarán presentes por lo que ya se tiene información relevante a priori.
 
   
   
 
-### Herramientas usadas
+### Herramientas usadas<a name="id525"></a>
 
 -   nmap: Programa que sirve para efectuar escaneo de puertos,versiones de los servicios en estos e incluso el sistema operativo del host.
     
@@ -1988,7 +1988,7 @@ Las maquina a evaluar forman una pila ELK, lo que se traduce en que los servicio
 
   
 
-## Vulnerabilidades
+## Vulnerabilidades<a name="id53"></a>
 
   
 
@@ -2024,7 +2024,7 @@ N/A
 
   
 
-## Hallazgos
+## Hallazgos<a name="id54"></a>
 
 Comenzamos por lanzar un escaneo a uno de los servidores de Elasticsearch. Dado que los 3 servidores de Elasticsearch tienen los mismos servicios y configuración, solo bastará hacer pruebas en uno (el principal)
 
@@ -2104,7 +2104,7 @@ Notemos que el ataque puede seguirse ejecutando sin problemas, por lo que el ser
 
   
 
-## Recomendaciones
+## Recomendaciones<a name="id55"></a>
 
 -   Instalar un servicio como Fail2ban para evitar este tipo de ataques.
     
@@ -2115,7 +2115,7 @@ Notemos que el ataque puede seguirse ejecutando sin problemas, por lo que el ser
 -   Usar certificados en lugar de contraseñas para autenticar en SSH
  
 
-# Conclusión.
+# Conclusión.<a name="id6"></a>
 
 El proyecto ayudó a reforzar los conocimientos sobre servicios y redes que se adquirieron durante el Plan de Becarios, en particular sobre infraestructura de Windows, ya que no se volvió a implementar un servicio sobre este sistema operativo después del primer módulo. Así mismo, se adquirió conocimientos nuevos sobre herramientas como lo son Amavis, Spamassassin, FortiGate, GNS3 y Cerebro, entre otros. Además, nos permitió adquirir conocimientos referente a la realización de un hardening sobre sistemas operativos Debian y CentOS, lo cual nos parece muy útil ya que es necesario implementar una línea base sobre aquellos equipos que conforman nuestra infraestructura de trabajo.
 
@@ -2123,7 +2123,7 @@ Por otra parte, se logró un aprendizaje significativo respecto al funcionamient
 
 Fue una gran experiencia de aprendizaje.
 
-# Bibliografía.
+# Bibliografía.<a name="id7"></a>
 
 [3.7.1 Spamassassin [Servidor Debian]. (s/f-a). Recuperado el 22 de enero de 2021, de](http://paperpile.com/b/Q4Pnnj/BCdZ) [https://servidordebian.org/es/buster/intranet/antispam/spamassassin](https://servidordebian.org/es/buster/intranet/antispam/spamassassin)
 

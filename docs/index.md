@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+###  Proyecto final: Instalación y configuración de la pila ELK.
 
-You can use the [editor on GitHub](https://github.com/yevitb/belk-doc.github.io/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- ALO? TEST$$$$$$$$$$$$$$$$$$$$
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-AAAAAAAAAAAAAAAAAAAAAYour Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yevitb/belk-doc.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
+**Tabla de contenidos**   
+1. [Definición del proyecto](#id1)
+2. [Objetivos planteados](#id2)
+3. [Instalación de ambientes](#id3)
+4. [Instalación de BELK Stack](#id4)
+5. [Conclusión](#id5)
+6. [Bibliografía](#id6)
+## Primer apartado<a name="id1"></a>
+Texto del primer apartado
+## Segundo apartado<a name="id2"></a>
+Texto del segundo apartado
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.

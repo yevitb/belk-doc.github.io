@@ -1732,30 +1732,41 @@ Una vez descargado debemos de instalarlo con el siguiente comando.
 La configuración de Debian es exactamente la misma que la de CentOS por lo cual no lo colocamos debido a que sería redundante.
 
 ### Windows.<a name="id4013"></a>
+#### Winlogbeat<a name="id40131"></a>
 
 Es necesario descargar el siguiente zip desde la página oficial de elastic.
 
-![](https://lh5.googleusercontent.com/0nZswtHHppPHhCKwdKJ_LYjD9-srlE6FdAfuxGey8H1t6RiZ5VM2vE05O_rCesMiR0kG8bG1ThQtBEh0rVckG6H6gqDw22VHbdjUiw-dX1CXL17D6Ox_u7oPCDAM5EQKThDFNmBb)
+![](https://lh3.googleusercontent.com/AEVi82ON7Xj6rNLVDNjjdTmQXO51VjTRoafiZZCEcO55iLbgVNDOtm7Xct1EgE8DHqor2WJGxchVSCQ-5kZOHNBjcS0hbfYHi6lb8FOA5NDEXXnffflTWIFghOYJR0z0PNa7ENrZ)
 
 Se descomprime en la ruta C:\Program Files
 
-![](https://lh3.googleusercontent.com/Cpu0rIF8-qtpvSlGElgAM-a1JpA91EarAxwAKbTAU_lKe5y947ZJb6Yna64ilNqIAwoOD8ULeC0SRx_xgA1v8uZ3T2G5XnWbK4sH3chfMlyaCWD8PkU69ESe6_2A9SV_CqmPLmSW)
+![](https://lh5.googleusercontent.com/2qaWn0HqWfpp419EW2SgV3oQc4tTOhOx9URPCmdzT02dXH8ysdj-VCHZjoF5ZVRK7Z_r2qnC5lVJcTT-uamr-2iBOjfW9J2KENbvr3MhR58ogh8HarXvHZRfWBxEZnlmBiCueBy9)
 
 Después cambiamos el nombre de la carpeta.
 
-![](https://lh6.googleusercontent.com/RVsNAV44WVFhMdZqVL40bCryu4cE2H4U8xoj8LxhNdfULeUthQK-NB3qEgKadf-wTyjcpHXo5alKeo5Bl6-i-DCC-lHYvkJA0IGKSxJ5kYrt2AKHjWC7W0tiOgqm7zx3Cj07u-7F)
+![](https://lh6.googleusercontent.com/JwtIfAvOu73xuH8b0dZlyOCNhcXLPgPVp_G5_Xqqki_gtVbeGlx8nqvZl9kyKfg8ledNstk-l1fAcrHwI4EhOZpxkXabkMIhGddn6_4coo8Qmg9Nh_iduDCC47NRhg_bRy68Nniz)
 
 Después lo instalamos mediante powershell.
 
-![](https://lh4.googleusercontent.com/aUi4YLmyFVYa3MGekDhrcidLwBMQ2QOq6e-oAHOzxtf9Rn1NKar2OLni-MhnURi_y0CF6xfIRpPlHKjW5X08_PO40djqsIGzDsougv9gwKLVxMYFNt1q81ctY5DNhttbTu6h-qXG)
+![](https://lh6.googleusercontent.com/zYoflNDO_1g1oWnTv1ZmT_FrRX4iSmGWPcUQyTZTGXWS37wW-oy0uQZfnUfnoDpDPQnAejhXZg64RaZflC0KGrdN_WBESBQ4FXBqN4KlicpRhb8uAxmjMgBXsQenEJAqh9ttG961)
 
 Después realizamos la configuración en el archivo winlogbeat.yml de manera similar que en windows.
 
-![](https://lh3.googleusercontent.com/kZq-VdD9sSAlG-ovJsjYn9FCf67ko5WdZoUJdscIKoeabmbjzaJECmNKmFbQlnrllZ_CPaGxD4YdJ5A2s1lIkkKALM7x-tDNurOjDN4aE-GuuiKmUydJpORovrI7d7YvBX3RkBOW)
+![](https://lh6.googleusercontent.com/yiI6UrLyGl6lp6gS4AyJHB45NKnC6OKsdJwkMXmC0AwtniQs2z6oEbqhFiOKDThORCrZkJnjDZL3lGUHwWjsaVdsmSgzq_4Gdbhd7kckRu9OybscljhdhHjnLq6RRY6zkl8CGopW)
 
 Después en services activamos el servicio.
 
-![](https://lh6.googleusercontent.com/onUTFgT2EDQ5PiJkrYiCxWOLvj8nno7ZNgWShp3Ll1Uz8sCaYjk4CpUerQanPSy6_3eiZc1H14HhiBhsg0qmHw5JqKHD3-c9i6C89gQ1bhF4Uq4Fp__qKKhG5vSGQVnbUAh1yNF8)
+![](https://lh6.googleusercontent.com/51pgqLXx81qSCKdOoP7a9QkRIHxRbQs6S98W7T7IMhoYZw6E1PQz_1TkdQU-PDxSlDUFF6pyiK_sN9YvJmxP9-nS0qrnkDLLFCm2X4Klt60_4qd80PE2gBVp87tA2yqaZn3f0Y_r)
+
+#### Filebeat<a name="id40132"></a>
+
+Para esto se descarga, descomprimimos el archivo zip, abrimos Powershell y corremos el script de instalación.
+
+  
+
+![](https://lh5.googleusercontent.com/R0U_lyYVw4INiZGNR1pTrt_l1YtWSqGAA3Xr0eE3PetxjJCBC6SQmyh8pJ3kcyLwdfS3u7uUdsij6SOHKK5w50KtN5ULD8EooPRwbIbMj0TGNlj6ynW1qj3mzkwX1TY5rLj7ZVSH)
+
+Dependiendo del servicio del que se requiere enviar los logs, a partir de este punto se habilita un módulo o se configura el archivo de filebeat.yml.
 
 ### Dispositivos de red.<a name="id4014"></a>
 

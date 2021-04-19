@@ -1955,7 +1955,7 @@ Reiniciamos el servicio una vez se ha configurado.
 Ahora se revisa en el navegador, donde se visita [IPKibana:5601](http://ipkibana:5601).
 
 ![](https://lh6.googleusercontent.com/tHZGAKNG7AIwZ_ILK4gL3VJA7h11UPq15NeOx-xScfcYjWJcVZBeDraVT5D326w34K9tz3hmjwZTrEMN5et0p_hEBry0aUClS69hYkl1I9TmMx0lWRjD-ymHSMPAQArHzZ7gSQTb)
-## Configuración de TLS-HTTPS
+## Configuración de TLS-HTTPS<a name="id405"></a>
 
 Kibana tiene como requisito poseer una conexión segura a través de TLS y HTTPS para poder hacer uso del servicio de reportes, de modo que en la siguiente sección se aborda el proceso de configuración requerido.
 
@@ -2095,7 +2095,7 @@ Nos dirigimos a `Management > Security > Users > Create user`. En esta nueva ven
 
 ![](https://lh5.googleusercontent.com/IXyXQR5eJpS2voYsqxUDfU1BZuDCewK954i-YGxVTEYM2fQOTopbdcNdUbdRCIM1Dg4x5aUjn3RwGeC02aOu9Qsy6vzf1q0CZkXft4A8P4tBhOrV0i8aNFHvOqTj70cHRU5jghXc)
 
-## Generación de visualizaciones en Kibana
+## Generación de visualizaciones en Kibana<a name="id406"></a>
 
 
 # Pentest<a name="id5"></a>

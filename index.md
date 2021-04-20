@@ -4071,225 +4071,222 @@ Notemos que el ataque puede seguirse ejecutando sin problemas, por lo que el ser
 
 # Actividades realizadas por integrante<a name="id9"></a>
 
--   Instalación de ambientes.
+1.   Instalación de ambientes.
     
 
--   Windows - Fernando
+   *   Windows - Fernando
     
--   Hyper-V - Fernando
-    
-
--   Habilitación de logs (Replicación) - Alexis
+   *   Hyper-V - Fernando
     
 
--   IIS - Fernando
-    
--   Active Directory - Fernando
+      -   Habilitación de logs (Replicación) - Alexis
     
 
--   Habilitación de logs (GPOs y Logons) - Alexis
+   *  IIS - Fernando
+    
+   *   Active Directory - Fernando
     
 
--   DNS - Alexis
+      -   Habilitación de logs (GPOs y Logons) - Alexis
     
 
--   Habilitación de logs - Abraham
+   *   DNS - Alexis
     
 
--   DHCP - Alexis
+      -   Habilitación de logs - Abraham
     
 
--   Habilitación de logs - Abisinia
+   *   DHCP - Alexis
     
 
--   SQL Server - Alexis
-
--   Habilitación de logs - Abraham
-    
--   Correo electrónico - Alexis
+      -   Habilitación de logs - Abisinia
     
 
--   SMTP, SMTPS - Alexis
+   *   SQL Server - Alexis
+
+      -   Habilitación de logs - Abraham
     
--   POP3, POP3S, IMAP, IMAPS - Alexis
-    
--   Amavis y Spamassassin - Alexis
+   *   Correo electrónico - Alexis
     
 
--   LDAP - Abraham
+      -   SMTP, SMTPS - Alexis
     
--   LDAPS - Abraham
+      -   POP3, POP3S, IMAP, IMAPS - Alexis
     
-
--   Habilitación logs- Abraham
-    
-
--   Apache HTTPD (HTTP, HTTPS) - Abisinia
-    
--   NginX (HTTP, HTTPS) - Abisinia
-    
--   SSH - Abraham
+      -   Amavis y Spamassassin - Alexis
     
 
--   Habilitación logs - Abraham
+   *   LDAP - Abraham
+    
+   *   LDAPS - Abraham
     
 
--   Firewall (Netfilter, fail2ban) - Abisinia
+      -   Habilitación logs- Abraham
     
 
--   Habilitación de logs - Abisinia
+   *   Apache HTTPD (HTTP, HTTPS) - Abisinia
+    
+   *   NginX (HTTP, HTTPS) - Abisinia
+    
+   *   SSH - Abraham
     
 
--   WAF (modSecurity para Apache HTTPD y NginX) - Abisinia
-    
--   PostgreSQL - Abraham
-    
--   MySQL/MariaDB - Abraham
-    
--   ProFTPD - Abraham
-    
--   Dispositivos de red - Fernando
+      -   Habilitación logs - Abraham
     
 
--   Scripts Línea Base
+   *   Firewall (Netfilter, fail2ban) - Abisinia
     
 
--   HardeningLogcheck.sh - Alexis
-    
--   HardeningSudo.sh - Alexis
-    
--   HardeningUserAccounts.sh - Alexis
-    
--   Hardening_servicios.sh - Abraham
-    
--   LineaBase.sh - Alexis
-    
--   Logwatch.sh - Abraham
-    
--   README.md - Todos
-    
--   SOUtilities.sh - Alexis
-    
--   fwll.sh - Abisinia
-    
--   ossecInstall.sh - Fernando
-    
--   password.sh - Fernando
-    
--   usuarios.sh - Fernando
-    
--   waf.sh - Abisinia
-    
--   fail2.sh - Abisinia
+      -   Habilitación de logs - Abisinia
     
 
--   Instalación de BELK Stack
+   *   WAF (modSecurity para Apache HTTPD y NginX) - Abisinia
+    
+   *   PostgreSQL - Abraham
+    
+   *   MySQL/MariaDB - Abraham
+    
+   *   ProFTPD - Abraham
+    
+   *   Dispositivos de red - Fernando
     
 
--   Beats - Instalado por todos
+2.   Scripts Línea Base
     
 
--   CentOS - Documentado por Abraham
+   *   HardeningLogcheck.sh - Alexis
     
--   Debian - Documentado por Fernando.
+   *   HardeningSudo.sh - Alexis
     
--   Windows
+   *   HardeningUserAccounts.sh - Alexis
     
-
--   Winlogbeat - Documentado por Fernando
+   *   Hardening_servicios.sh - Abraham
     
--   Filebeat - Documentado por Abisinia
+   *   LineaBase.sh - Alexis
     
-
--   Dispositivos de red - Documentado por Fernando
+   *   Logwatch.sh - Abraham
     
-
--   Elasticsearch  - Documentado por Alexis - Instalado por todos.
+   *   README.md - Todos
     
--   Logstash - Documentado por Abraham - Instalado por todos.
+   *   SOUtilities.sh - Alexis
     
--   Kibana - Documentado por Abisinia - Instalado por todos.
+   *   fwll.sh - Abisinia
     
--   Configuración de TLS-HTTPS - Documentado por Alexis y Fernando - Instalado por todos.
+   *   ossecInstall.sh - Fernando
     
-
--   Dashboards
+   *   password.sh - Fernando
     
-
--   Email Dashboard - Alexis
+   *   usuarios.sh - Fernando
     
--   Web Dashboard - Abisinia
+   *   waf.sh - Abisinia
     
--   WAF Dashboard - Abisinia
-    
--   Iptables Dashboard - Abisinia
-    
--   FTP-MariaDB-PSQL Dashboard
-    
--   DNS - Abraham
-    
--   MSSQL - Abraham
-    
--   LDAP(S) - Abraham
-    
--   SSH - Abraham
-    
--   Windows Dashboard - Fernando
-    
--   IIS Dashboard - Abisinia
-    
--   DHCP Dashboard - Abisinia
-    
--   Dispositivos de red dashboard - Fernando
-    
--   Active Directory Dashboard - Alexis
-    
--   Hyper-V Dashboard - Alexis
-    
--   Threats Dashboard - Todos
-    
--   Windows Services Threats Dashboard - Alexis
+   *   fail2.sh - Abisinia
     
 
--   Alertas
+3. Instalación de BELK Stack
+    
+   *   Beats - Instalado por todos
+    
+      -   CentOS - Documentado por Abraham
+    
+      -   Debian - Documentado por Fernando.
+    
+      -   Windows
     
 
--   Alertas de Email - Alexis
+         *   Winlogbeat - Documentado por Fernando
     
--   Alertas de Waf - Abisinia
-    
--   Alertas de web - Abisinia
-    
--   Alertas de iptables y fail2ban - Abisinia
-    
--   Alertas para Bases de datos - Abraham
-    
--   Alertas SSH - Abraham
-    
--   Alertas LDAP - Abraham
-    
--   Alertas DNS - Abraham
-    
--   Alertas FTP - Abraham
-    
--   Alertas IIS - Abisinia
-    
--   Alertas DHCP - Abisinia
-    
--   Alertas de Active Directory - Alexis
-    
--   Alertas de Hyper-V - Alexis
-    
--   Alertas dispositivos - Fernando
+         *   Filebeat - Documentado por Abisinia
     
 
--   Conectores - Alexis
+      -   Dispositivos de red - Documentado por Fernando
     
--   Reportes - Fernando
+
+   *   Elasticsearch  - Documentado por Alexis - Instalado por todos.
     
--   Cerebro - Fernando
+   *   Logstash - Documentado por Abraham - Instalado por todos.
     
--   Pentest - Abraham
+   *   Kibana - Documentado por Abisinia - Instalado por todos.
+    
+   *   Configuración de TLS-HTTPS - Documentado por Alexis y Fernando - Instalado por todos.
+    
+
+4.   Dashboards
+    
+
+   *   Email Dashboard - Alexis
+    
+   *   Web Dashboard - Abisinia
+    
+   *   WAF Dashboard - Abisinia
+    
+   *   Iptables Dashboard - Abisinia
+    
+   *   FTP-MariaDB-PSQL Dashboard
+    
+   *   DNS - Abraham
+    
+   *   MSSQL - Abraham
+    
+   *   LDAP(S) - Abraham
+    
+   *   SSH - Abraham
+    
+   *   Windows Dashboard - Fernando
+    
+   *   IIS Dashboard - Abisinia
+    
+   *   DHCP Dashboard - Abisinia
+    
+   *   Dispositivos de red dashboard - Fernando
+    
+   *   Active Directory Dashboard - Alexis
+    
+   *   Hyper-V Dashboard - Alexis
+    
+   *   Threats Dashboard - Todos
+    
+   *   Windows Services Threats Dashboard - Alexis
+    
+
+5.   Alertas
+    
+
+   *   Alertas de Email - Alexis
+    
+   *   Alertas de Waf - Abisinia
+    
+   *   Alertas de web - Abisinia
+    
+   *   Alertas de iptables y fail2ban - Abisinia
+    
+   *   Alertas para Bases de datos - Abraham
+    
+   *   Alertas SSH - Abraham
+    
+   *   Alertas LDAP - Abraham
+    
+   *   Alertas DNS - Abraham
+    
+   *   Alertas FTP - Abraham
+    
+   *   Alertas IIS - Abisinia
+    
+   *   Alertas DHCP - Abisinia
+    
+   *   Alertas de Active Directory - Alexis
+    
+   *   Alertas de Hyper-V - Alexis
+    
+   *   Alertas dispositivos - Fernando
+    
+6.   Conectores - Alexis
+    
+7.   Reportes - Fernando
+    
+8.   Cerebro - Fernando
+    
+9.   Pentest - Abraham
     
 
 # Conclusión<a name="id6"></a>

@@ -89,7 +89,7 @@
     * [Hallazgos](#id54)
     * [Recomendaciones](#id55)
 
-7. [Actividadews realizadas por integrante](#id9)
+7. [Actividades realizadas por integrante](#id9)
 8. [Conclusión](#id6)
     * [General](#id61)
     * [Alexis Brayan López Matías](#id62)

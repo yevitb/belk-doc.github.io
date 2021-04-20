@@ -163,184 +163,99 @@ Versión: 7.12
 Archivos de configuración
 `
 Beats
-
-├── AD_HV
-
-│ └── winlogbeat.yml
-
-├── DB_FTP
-
-│ └── filebeat.yml
-
-├── DHCP
-
-│ └── filebeat.yml
-
+├── AD_HV (C:\Program Files\Winlogbeat)
+│   └── winlogbeat.yml
+├── DB_FTP (/etc/filebeat/)
+│   └── filebeat.yml
+├── DHCP  (C:\Program Files\Filebeat)
+│   └── filebeat.yml
 ├── Dispositivos
-
-│ ├── cisco.yml
-
-│ └── filebeat.yml
-
-├── Firewall
-
-│ └── filebeat.yml
-
-├── IIS
-
-│ ├── filebeat.yml
-
-│ └── modules.d
-
-│ └── iis.yml
-
-├── LDAP
-
-│ └── filebeat.yml
-
-├── Mail
-
-│ └── filebeat.yml
-
-├── SSH
-
-│ └── filebeat.yml
-
-├── WAF
-
-│ └── filebeat.yml
-
-├── Web
-
-│ └── filebeat.yml
-
+│   ├── cisco.yml (/etc/filebeat/modules.d/)
+│   └── filebeat.yml (/etc/filebeat/)
+├── Firewall (/etc/filebeat/)
+│   └── filebeat.yml
+├── IIS (C:\Program Files\Filebeat)
+│   ├── filebeat.yml
+│   └── modules.d
+│       └── iis.yml
+├── LDAP (/etc/filebeat/)
+│   └── filebeat.yml
+├── Mail (/etc/filebeat/)
+│   └── filebeat.yml
+├── SSH (/etc/filebeat/)
+│   └── filebeat.yml
+├── WAF (/etc/filebeat/)
+│   └── filebeat.yml
+├── Web (/etc/filebeat/)
+│   └── filebeat.yml
 ├── Win_dns_sql
-
-│ └── filebeat.yml
-
-└── Windows
-
-└── winlogbeat.yml
-
-Elasticsearch
-
+│   └── filebeat.yml (C:\filebeat\filebeat.yml)
+└── Windows (C:\Program Files\Winlogbeat)
+    └── winlogbeat.yml
+Elasticsearch  (/etc/elasticsearch)
 ├── es01
-
-│ └── elasticsearch.yml
-
+│   └── elasticsearch.yml
 ├── es02
-
-│ └── elasticsearch.yml
-
+│   └── elasticsearch.yml
 └── es03
-
-└── elasticsearch.yml
-
+    └── elasticsearch.yml
 Kibana
-
-├── Alertas
-
-│ ├── AD_HV.ndjson
-
-│ ├── dhcp_iis.ndjson
-
-│ ├── dns_rule.ndjson
-
-│ ├── ftp_rule.ndjson
-
-│ ├── ldap_rule.ndjson
-
-│ ├── mariadb_rule.ndjson
-
-│ ├── mssql_rule.ndjson
-
-│ ├── mssql_user_rule.ndjson
-
-│ ├── psql_rule.ndjson
-
-│ ├── router.ndjson
-
-│ ├── SMTP_detection_rules.ndjson
-
-│ ├── ssh_rule.ndjson
-
-│ ├── switch.ndjson
-
-│ └── WAF_Web_Fwall_rules.ndjson
-
-├── Dashbords
-
-│ ├── AD_HV.ndjson
-
-│ ├── devices.ndjson
-
-│ ├── DHCP_IIS.ndjson
-
-│ ├── Email_objects.ndjson
-
-│ ├── MARIA_DNS_PSQL_SSH_LDAP_MSSQL_FTP.ndjson
-
-│ ├── WAF_Web_Fwall.ndjson
-
-│ └── windows.ndjson
-
-├── generacion_de_reportes
-
-│ └── Daily_report.json
-
+├── Alertas (Importación)
+│   ├── AD_HV.ndjson
+│   ├── dhcp_iis.ndjson
+│   ├── dns_rule.ndjson
+│   ├── ftp_rule.ndjson
+│   ├── ldap_rule.ndjson
+│   ├── mariadb_rule.ndjson
+│   ├── mssql_rule.ndjson
+│   ├── mssql_user_rule.ndjson
+│   ├── psql_rule.ndjson
+│   ├── router.ndjson
+│   ├── SMTP_detection_rules.ndjson
+│   ├── ssh_rule.ndjson
+│   ├── switch.ndjson
+│   └── WAF_Web_Fwall_rules.ndjson
+├── Dashbords (Importación)
+│   ├── AD_HV.ndjson
+│   ├── devices.ndjson
+│   ├── DHCP_IIS.ndjson
+│   ├── Email_objects.ndjson
+│   ├── MARIA_DNS_PSQL_SSH_LDAP_MSSQL_FTP.ndjson
+│   ├── WAF_Web_Fwall.ndjson
+│   └── windows.ndjson
+├── generacion_de_reportes (A través de Kibana)
+│   └── Daily_report.json
 │
-
-└── kibana.yml
-
-LDAP ldifs
-
+└── kibana.yml (/etc/kibana)
+LDAP  ldifs
 ├── ldap-tls.ldif
-
 ├── logs.ldif
-
 ├── new_user.ldif
-
 ├── no_anony.ldif
-
 └── org.ldif
-
 Logstash
+├── filtros (/etc/logstash/conf.d)
+│   ├── ad.conf
+│   ├── Apache_Nginx.conf
+│   ├── dhcp.conf
+│   ├── DNS_MSSQL.conf
+│   ├── Email.conf
+│   ├── fortigate.conf
+│   ├── FTP_MARIA_PSQL_SSH_LDAP.conf
+│   ├── hyperv.conf
+│   ├── iis.conf
+│   ├── in_out.conf
+│   └── WAF_IpTables_F2ban.conf
+└── patrones (/etc/logstash/patterns.d)
+    ├── ad.grok
+    ├── amavis.grok
+    ├── dovecot.grok
+    └── postfix.grok
+pwds.txt
 
-├── filtros
 
-│ ├── ad.conf
 
-│ ├── Apache_Nginx.conf
-
-│ ├── dhcp.conf
-
-│ ├── DNS_MSSQL.conf
-
-│ ├── Email.conf
-
-│ ├── fortigate.conf
-
-│ ├── FTP_MARIA_PSQL_SSH_LDAP.conf
-
-│ ├── hyperv.conf
-
-│ ├── iis.conf
-
-│ ├── in_out.conf
-
-│ └── WAF_IpTables_F2ban.conf
-
-└── patrones
-
-├── ad.grok
-
-├── amavis.grok
-
-├── dovecot.grok
-
-└── postfix.grok
-
-pwds.txt`
+`
   
   
   

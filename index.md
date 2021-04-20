@@ -4103,6 +4103,8 @@ Notemos que el ataque puede seguirse ejecutando sin problemas, por lo que el ser
     
 
 -   SQL Server - Alexis
+
+-   Habilitación de logs - Abraham
     
 -   Correo electrónico - Alexis
     

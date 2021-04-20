@@ -4071,15 +4071,11 @@ Notemos que el ataque puede seguirse ejecutando sin problemas, por lo que el ser
 
 # Actividades realizadas por integrante<a name="id9"></a>
 
-1.   Instalación de ambientes.
-    
 
-   *   Windows - Fernando
-    
-   *   Hyper-V - Fernando
-    
-
-      -   Habilitación de logs (Replicación) - Alexis
+1. [Instalación de ambientes]
+   * Windows - Fernando
+   * Hyper-V - Fernando
+      -  Habilitación de logs (Replicación) - Alexis
     
 
    *  IIS - Fernando

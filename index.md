@@ -161,7 +161,7 @@ Versión: 7.12
 
 
 Archivos de configuración
-`
+```
 Beats
 ├── AD_HV (C:\Program Files\Winlogbeat)
 │   └── winlogbeat.yml
@@ -253,9 +253,7 @@ Logstash
     └── postfix.grok
 pwds.txt
 
-
-
-`
+```
   
   
   

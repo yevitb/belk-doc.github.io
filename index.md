@@ -75,6 +75,7 @@
         - [Alertas de Hyper-V](#id40813)
     * [Conectores](#id409)
     * [Reportes](#id410)
+    * [Objetos](#id411)
 6. [Pentest](#id5)
     * [Resumen ejecutivo](#id51)
         - [Puntos positivos](#id511)
@@ -3816,7 +3817,32 @@ Y por último en el correo podemos observar que se ejecutó la acción del watch
 
 ![](https://lh6.googleusercontent.com/vZzJsiILYwdq1r8wsLRp2lyTWbHpsHh3Pz4AogQdP1F0zE5Wz-WoJmEOKUBdSPqe-LOx9TTtjCc_uXepfCSpEZIYn8tsQ2EnBU9mq9Htx5ziXfZuxBHW3j4QeitqFnVx7bOBaPdW)
   
-  
+
+## Objetos<a name="id411"></a>
+
+Kibana permite realizar una administración de los objetos (Dashboards, visualizaciones, búsquedas, etc.) que se han creado. Este panel se encuentra haciendo clic en Stack Management.
+
+![](https://lh5.googleusercontent.com/XXua4SBC1oQB6EQ43mzopJLCAlrGNxO4uM490JLNgAdu612lmjO7UyDWjx_Q-ogguvqu40saCQzZygHajEyhxHKHbzjSG0oQc8bFWxTzauzsKuJ1k00bOBdJhz3abuTnKOMW5yWB)
+
+Posteriormente nos dirigimos a Kibana > Saved Objects.
+
+![](https://lh5.googleusercontent.com/NnKXhwftVT1Pz9_hjWWBpmpv7Zij_Vej2VVYhhg4kVxrtrV97qytcpU4juOm3CIMgXmV6mR3n6Acpt6-E8moFRn65hzYyeyC1il0KCAn7hw-BhNeyQsdFD-IFEpDBbMSNtxTPu1d)
+
+Se mostrará una vista con todos los objetos disponibles. Para exportar objetos podemos seleccionar aquellos que nos interesan y posteriormente hacer clic en Export N objects.
+
+![](https://lh5.googleusercontent.com/TZPYe3DEQp-5hnUIqa3GZjilX5v339LmP0CrmzAw36SegWSK9gRQ1bFvf_ArO535qlnc1vLyrOYokMfk_8aofrADkPVJEYU_IOcsNaVnL3pHkWjkrXjQ5IEXCDH9YzDxoPkm71e6)
+
+Se mostrará un cuadro de diálogo en el que deberemos seleccionar los tipos de objetos deseados y finalmente deberemos hacer clic en Export.
+
+![](https://lh4.googleusercontent.com/D66DeChRKANIfVYcakgeo6ehf0iIwLTIlYxj-ws9_obtFHhT8nr-2M-tKb1gaC1ACBjXhac_CINQL8UiBEnPzICbRZyOnQFMjWxl3yY_GAmuHmNmQBjRIA8UL2uDiSKCwqukMn3w)
+
+También se pueden importar objetos a través de la misma sección de administración. Para esto deberemos hacer clic en Import.
+
+![](https://lh5.googleusercontent.com/h5p9e5GeD095orxhHZrIupl5_zESERuH_GQOjAgqDEJfoWSoSQ7Jv721eQNTx-WvkmkapAHKMjj3VbhrFbKJI-CjN1Ku6mxQYBM2MiRB7Cen9m7MrN0PZAhkuIu_-y5ghVBUyZ64)
+
+Se mostrará un panel lateral en el cual deberemos seleccionar el archivo con los objetos a importar, así como la operación a realizar en caso de que haya conflicto con algún otro objeto. Finalmente hacemos clic en Import.
+
+![](https://lh3.googleusercontent.com/EH-IUdokR0eJwUeaiDFIAbBj5Ufb9rj0zMfUO6n3TBeOIDUIwAh4yPKwvT0L1oteEiZifLhZBnSw9weaa5WDFu410g4r5N9XS0tAV_iq_gJNJ0awrtv9_S1zp6hHDhB1HkqibC4k)
   
 # Pentest<a name="id5"></a>
 

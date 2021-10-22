@@ -6,6 +6,7 @@ Realizado por:
 
 
 ###  Proyecto final: Instalación y configuración de la pila ELK.
+##
 
 **Tabla de contenidos**   
 1. [Definición del proyecto](#id1)
